@@ -18,5 +18,7 @@ public class RegistrationController {
 	public ModelAndView addUser(@ModelAttribute User user) {
 		userService.register(user);
 		return new ModelAndView("registrationSuccess", "message", "You are Successfully Registered");
+//		return new ModelAndView("/login.jsp");
+
 	}
 }

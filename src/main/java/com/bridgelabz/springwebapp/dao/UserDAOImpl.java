@@ -43,4 +43,3 @@ public class UserDAOImpl implements UserDAO {
 		return (users.isEmpty() ? null : users.get(0));
 	}
 }
-
