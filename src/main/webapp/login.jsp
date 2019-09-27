@@ -10,24 +10,20 @@
 </head>
 <body>
 	<div align="center">
-		<form:form id="loginForm" modelAttribute="login" action="loginProcess"
-			method="post">
+		<p style="font-style: italic; color: red;">${message}</p>
+		<form action="loginProcess"	method="post">
 			<table>
 				<tr>
-					<td style="font-style: italic; color: red;">${message}</td>
-				</tr>
-				<tr>
 					<td>Username</td>
-					<td><form:input path="userName" name="userName" id="userName" /></td>
+					<td><input type="text" name="userName"/></td>
 				</tr>
 				<tr>
 					<td>Password</td>
-					<td><form:password path="password" name="password"
-							id="password" /></td>
+					<td><input type="password" name="password" id="password" /></td>
 				</tr>
 				<tr>
 					<td></td>
-					<td align="left"><form:button id="login" name="login">Login</form:button></td>
+					<td align="left"><input type="submit" value="Login"></td>
 				</tr>
 
 				<tr></tr>
@@ -36,7 +32,7 @@
 					<td><a href="index.jsp">Home</a></td>
 				</tr>
 			</table>
-		</form:form>
+		</form>
 	</div>
 </body>
 </html>

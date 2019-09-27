@@ -8,6 +8,7 @@
 <meta charset="UTF-8">
 <title>Welcome</title>
 </head>
-<body>Welcome, ${firstName} ${message}
+<body>Welcome, ${firstName}
+<!-- <a href="loginProcess/profile">My Profile</a> -->
 </body>
 </html>

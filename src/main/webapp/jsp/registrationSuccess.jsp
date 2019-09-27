@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Registration Success</title>
 </head>
-<body>${message}
-	<a href="login">Click here to Login</a>
+<body>
+	<%@ include file="/login.jsp"%>
 </body>
 </html>
